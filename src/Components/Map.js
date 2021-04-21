@@ -20,7 +20,7 @@ function Map( {centerData,center,zoom,region} ) {
             
             <GoogleMapReact
             bootstrapURLKeys={{
-                key:'AIzaSyAC1pcgdCfEJs2Swb3TQnFWi28q5EpBJrI'}}
+                key:process.env.REACT_URL_KEY}}
                 defaultCenter={ center }
                 defaultZoom={ zoom }
                 
